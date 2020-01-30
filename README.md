@@ -1,7 +1,7 @@
 # nmapList
 List of useful nmap examples
 
-Ping Scan
+Ping Scan (using cidr)
 ```
 nmap -sn -n 10.100.13.0/24
 ```
