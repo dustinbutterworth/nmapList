@@ -1,6 +1,11 @@
 # nmapList
 List of useful nmap examples
 
+Ping Scan
+```
+nmap -sn -n 10.100.13.0/24
+```
+
 Exhaustive Scan:
 ```
 nmap -sV -n -v -Pn -p- -A --reason -oN nmap.txt $IP
