@@ -32,4 +32,6 @@ nmap -n -PS22 -p22 -iL hosts
 ```
 
 Don't forget the nifty vulners script:
+```
 --script vulners
+```
